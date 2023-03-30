@@ -1,0 +1,58 @@
+
+.MuiTimeline-root{
+  align-items: flex-start;
+  /* border: 1px solid black; */
+
+}
+.MuiTimelineItem-content{
+  width:100%;
+}
+.MuiTimelineItem-missingOppositeContent::before{
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+}
+.MuiTimeline-root{
+  /* position: relative; */
+  overflow:hidden;
+  overflow-y: scroll;
+  height:223px !important;
+}
+
+.css-w4z10b-MuiStack-root
+{
+  padding: 20px !important;
+}
+.MuiDataGrid-row{
+  min-height: 45px !important;
+  max-height: 45px !important;
+}
+.MuiDataGrid-cell{
+ min-height: 45px !important;
+ max-height: 45px !important;
+}
+
+/* datepicker */
+.css-1anqmj6-MuiPopper-root-MuiPickersPopper-root {
+  z-index: 15000 !important;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  z-index:0 !important;
+}
+
+/* menuitem */
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root {
+  position: fixed;
+  z-index: 13000 !important;
+}
+/* .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 100% !important;
+} */
+
+/* checkbox user leave form */
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  justify-content: left !important;
+}
+/* .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root:hover {
+  background-color:none !important;
+} */
